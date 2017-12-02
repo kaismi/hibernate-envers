@@ -1,0 +1,15 @@
+INSERT INTO company (id, name) VALUES
+  (1, 'Microsoft'),
+  (2, 'Apple'),
+  (3, 'Google');
+
+INSERT INTO person (id, firstname, lastname, company_id) VALUES
+  (1, 'John', 'Foo', 1),
+  (2, 'Peter', 'Foo', 2),
+  (3, 'Gregory', 'Foo', 3),
+  (4, 'Claudia', 'Foo', NULL),
+  (5, 'Michael', 'Foo', NULL),
+  (6, 'Dominik', 'Foo', NULL),
+  (7, 'Thomas', 'Foo', NULL),
+  (8, 'Martin', 'Foo', NULL),
+  (9, 'James', 'Foo', NULL);

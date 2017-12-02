@@ -1,0 +1,11 @@
+security:
+    user:
+        name: foo
+        password: bar
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+
