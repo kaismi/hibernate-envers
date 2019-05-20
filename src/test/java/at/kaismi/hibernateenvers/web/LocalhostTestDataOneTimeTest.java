@@ -1,7 +1,7 @@
-package at.kaismi.web;
+package at.kaismi.hibernateenvers.web;
 
-import at.kaismi.domain.CompanyInfo;
-import at.kaismi.domain.PersonInfo;
+import at.kaismi.hibernateenvers.domain.CompanyInfo;
+import at.kaismi.hibernateenvers.domain.PersonInfo;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,11 +1,11 @@
-package at.kaismi.web;
+package at.kaismi.hibernateenvers.web;
 
-import at.kaismi.domain.Person;
-import at.kaismi.domain.PersonInfo;
-import at.kaismi.domain.PersonRevision;
-import at.kaismi.domain.UserNameRevision;
-import at.kaismi.repository.PersonRepository;
-import at.kaismi.service.PersonPersistenceService;
+import at.kaismi.hibernateenvers.domain.Person;
+import at.kaismi.hibernateenvers.domain.PersonInfo;
+import at.kaismi.hibernateenvers.domain.PersonRevision;
+import at.kaismi.hibernateenvers.domain.UserNameRevision;
+import at.kaismi.hibernateenvers.repository.PersonRepository;
+import at.kaismi.hibernateenvers.service.PersonPersistenceService;
 import org.hibernate.envers.AuditReaderFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
 import javax.transaction.Transactional;
-import java.util.Date;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;

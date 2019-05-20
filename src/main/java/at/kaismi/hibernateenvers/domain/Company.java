@@ -1,4 +1,4 @@
-package at.kaismi.domain;
+package at.kaismi.hibernateenvers.domain;
 
 import org.hibernate.envers.Audited;
 

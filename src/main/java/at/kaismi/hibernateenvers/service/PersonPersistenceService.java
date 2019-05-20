@@ -1,10 +1,10 @@
-package at.kaismi.service;
+package at.kaismi.hibernateenvers.service;
 
-import at.kaismi.domain.Company;
-import at.kaismi.domain.Person;
-import at.kaismi.domain.PersonInfo;
-import at.kaismi.repository.CompanyRepository;
-import at.kaismi.repository.PersonRepository;
+import at.kaismi.hibernateenvers.domain.Company;
+import at.kaismi.hibernateenvers.domain.Person;
+import at.kaismi.hibernateenvers.domain.PersonInfo;
+import at.kaismi.hibernateenvers.repository.CompanyRepository;
+import at.kaismi.hibernateenvers.repository.PersonRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

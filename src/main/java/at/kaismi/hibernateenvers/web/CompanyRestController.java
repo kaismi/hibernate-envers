@@ -1,9 +1,10 @@
-package at.kaismi.web;
+package at.kaismi.hibernateenvers.web;
 
 import at.kaismi.domain.*;
-import at.kaismi.repository.CompanyRepository;
-import at.kaismi.repository.PersonRepository;
-import at.kaismi.service.PersonPersistenceService;
+import at.kaismi.hibernateenvers.domain.*;
+import at.kaismi.hibernateenvers.repository.CompanyRepository;
+import at.kaismi.hibernateenvers.repository.PersonRepository;
+import at.kaismi.hibernateenvers.service.PersonPersistenceService;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.envers.AuditReaderFactory;
 import org.springframework.beans.factory.annotation.Autowired;

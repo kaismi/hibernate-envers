@@ -1,6 +1,6 @@
-package at.kaismi.domain;
+package at.kaismi.hibernateenvers.domain;
 
-import at.kaismi.listener.UserNameEntityTrackingRevisionListener;
+import at.kaismi.hibernateenvers.listener.UserNameEntityTrackingRevisionListener;
 import org.hibernate.envers.DefaultRevisionEntity;
 import org.hibernate.envers.RevisionEntity;
 

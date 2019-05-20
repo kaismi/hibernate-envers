@@ -1,6 +1,6 @@
-package at.kaismi.listener;
+package at.kaismi.hibernateenvers.listener;
 
-import at.kaismi.domain.UserNameRevision;
+import at.kaismi.hibernateenvers.domain.UserNameRevision;
 import org.hibernate.envers.RevisionListener;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

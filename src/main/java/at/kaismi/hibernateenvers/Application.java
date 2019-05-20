@@ -1,4 +1,4 @@
-package at.kaismi;
+package at.kaismi.hibernateenvers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,8 @@
-package at.kaismi.listener;
+package at.kaismi.hibernateenvers.listener;
 
-import at.kaismi.domain.Company;
-import at.kaismi.domain.Person;
-import at.kaismi.domain.UserNameRevision;
+import at.kaismi.hibernateenvers.domain.Company;
+import at.kaismi.hibernateenvers.domain.Person;
+import at.kaismi.hibernateenvers.domain.UserNameRevision;
 import org.hibernate.envers.EntityTrackingRevisionListener;
 import org.hibernate.envers.RevisionType;
 import org.springframework.security.core.Authentication;

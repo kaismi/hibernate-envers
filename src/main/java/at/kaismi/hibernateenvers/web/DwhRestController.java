@@ -1,10 +1,8 @@
-package at.kaismi.web;
+package at.kaismi.hibernateenvers.web;
 
-import at.kaismi.domain.Company;
-import at.kaismi.domain.CompanyInfo;
-import at.kaismi.domain.Person;
-import at.kaismi.repository.PersonRepository;
-import at.kaismi.service.PersonPersistenceService;
+import at.kaismi.hibernateenvers.domain.Company;
+import at.kaismi.hibernateenvers.domain.CompanyInfo;
+import at.kaismi.hibernateenvers.domain.Person;
 import org.hibernate.criterion.MatchMode;
 import org.hibernate.envers.AuditReaderFactory;
 import org.hibernate.envers.query.AuditEntity;
